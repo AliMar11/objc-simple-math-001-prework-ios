@@ -10,8 +10,9 @@
 		177357991E8B98BDE295E035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E2045DC1871073DC2FBDDF /* Main.storyboard */; };
 		3A88AE75E7F33FAB8F713A01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C51D485D808A09D9D4C61E2 /* Images.xcassets */; };
 		79B4DAD5DFC64A29C64DABD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CFB29ACDA0841DFB489083 /* main.m */; };
-		7CB5B53B06B2CA7861D79EF3 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1EC944914768941EA6BF62 /* FISAppDelegate.m */; };
 		AA5AB45359E0D62B2A203CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C3A682C218E2791DBBD0A9 /* Foundation.framework */; };
+		C0D4BC1A1BFC2642004D8EF1 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1EC944914768941EA6BF62 /* FISAppDelegate.m */; };
+		C0D4BC1B1BFC2644004D8EF1 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1EC944914768941EA6BF62 /* FISAppDelegate.m */; };
 		C119C910243212C6DAC5B258 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A51696DB851FB601DF64A60 /* libPods-unit_tests.a */; };
 		F7B67133A48EB76C15EFDC59 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = B3490936BA6414D722BDBFD4 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
@@ -295,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0D4BC1A1BFC2642004D8EF1 /* FISAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,8 +304,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CB5B53B06B2CA7861D79EF3 /* FISAppDelegate.m in Sources */,
 				F7B67133A48EB76C15EFDC59 /* LaunchScreen.xib in Sources */,
+				C0D4BC1B1BFC2644004D8EF1 /* FISAppDelegate.m in Sources */,
 				79B4DAD5DFC64A29C64DABD0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
